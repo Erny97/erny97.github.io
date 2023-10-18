@@ -1,0 +1,116 @@
+body{
+
+	background: whitesmoke;
+}
+
+
+.logo img {
+	
+    margin-top: 5px;
+    width: 150px;
+    height: 90px;
+   float: left;
+
+}
+
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 10px;
+
+	
+	
+}
+
+h1{
+	font-family: century-gothics;
+	font-size: 3em;
+    border-bottom: 2px solid white;
+	border-right:2px solid white;	
+	width: 400px;
+	text-align: center;
+	color: whitesmoke;
+	box-shadow: 4px 4px 5px green;
+	margin-top: 10px;
+    margin-right: 10px;
+    float:  right;
+}
+
+img{
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+	transition: all 1s;
+	border: 2px solid green;
+
+}
+ img:hover {
+ 	transform: scale(1.1);
+ }
+
+
+h3{
+	background: 5px green;
+	color: white;
+	text-align: center;
+	font-family: century-gothics;
+
+}
+h2{
+	text-align: center;
+	color: green;
+	font-family: century-gothics;
+	border-bottom: 2px solid green;
+	border-right:2px solid green;
+	box-shadow: 4px 4px 5px green;
+}
+
+li {
+      font-family:century-gothics;
+      font-style: italic , bold;
+	  list-style: none;
+	 
+	  
+
+}
+/* NAVBAR STYLING STARTS */
+.navbar  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  background-color: teal;
+  color: #fff;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  justify-text: center;
+}
+
+/* LOGO */
+.logo {
+  font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 10em;
+  font-size: 18px;
+}
+
+ li:hover {
+  
+ 
+  
+}
+
+.menu li {
+
+}
+  
